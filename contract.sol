@@ -33,7 +33,7 @@ contract ERC20Interface {
 	event Approval(address indexed _owner, address indexed _spender, uint256 _value);
 }
 
-contract KOK_Contract is ERC20Interface, Owned {
+contract KOKContract is ERC20Interface, Owned {
 	string public constant symbol = "KOK";
 	string public constant name = "KOK Coin";
 	uint8 public constant decimals = 18;
